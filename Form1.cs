@@ -10,6 +10,7 @@ namespace Oběšenec_grafická_verze
             InitializeComponent();
             hadaneSlovo.VymysliNoveSlovo();
             hadaneSlovo.VygenerujCastecneOdhaleneSlovo();
+            skryteSlovo.Text = hadaneSlovo.VratCastecneOdhaleneSlovo;
             pocetPismen.Text = "Počet písmen: " + hadaneSlovo.VratCastecneOdhaleneSlovo.Length;
         }
 
