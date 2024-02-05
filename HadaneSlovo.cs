@@ -48,6 +48,7 @@ namespace Oběšenec_grafická_verze
             Random generatorNahodnychCisel = new Random();
             int nahodneCislo = generatorNahodnychCisel.Next(poleHadanychSlov.Length);
             VymysleneSlovo = poleHadanychSlov[nahodneCislo]; //náhodně se vygeneruje hádané slovo z pole
+
         }
 
         public void VygenerujCastecneOdhaleneSlovo() //vygeneruje zakryté slovo o stejném počtu znaků.
