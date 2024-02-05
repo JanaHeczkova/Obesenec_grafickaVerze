@@ -36,6 +36,9 @@ namespace Oběšenec_grafická_verze
 
             OdhalovaniObesence();
 
+
+
+
             if (hadaneSlovo.PocetNeuspesnychPokusu == hadaneSlovo.CelkovyPocetPokusu)
             {
                 MessageBox.Show("Bohužel jsi prohrál. Hádané slovo bylo: " + hadaneSlovo.VymysleneSlovo);
